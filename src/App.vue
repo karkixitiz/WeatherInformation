@@ -12,7 +12,7 @@
              @keyup.enter="organizeAllDetails"
            >
            <button id="search-btn" @click="organizeAllDetails">
-            Search
+          <img src="./assets/search.svg" width="24" height="24">
            </button>
          </div>
          <div id="info">
@@ -44,7 +44,7 @@
            <div class="wrapper-right">
              <div class="date-time-info">
                <div id="date-desc">
-                 Calender
+                   <img src="./assets/calendar.svg" width="20" height="20">
                  {{ currentWeather.time }}
                </div>
              </div>
